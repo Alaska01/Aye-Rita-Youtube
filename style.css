@@ -39,10 +39,8 @@ body{
 .cusor {
     cursor:pointer;
 }
-<<<<<<< HEAD
 
 .odin{
-    height: ;
     padding-top: 2px;
 }
 
@@ -66,7 +64,7 @@ body{
 #grouping{
     width: 640px;
     position: relative;
-=======
+}
 .video-player{
     background-color:white;
 }
@@ -104,5 +102,4 @@ cursor:no-drop;
 }
 #learn-more a{
     text-decoration: none;
->>>>>>> master
 }
