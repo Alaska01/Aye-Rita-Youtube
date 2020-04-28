@@ -1,29 +1,79 @@
-
+body{
+    background-color: #F1F1F1;
+    margin: 0;
+    padding: 0;
+}
 #nav-bar{
     display: inline-block;
     width: 100%;
+    background-color:white;
     text-align: center;
-    
-}
-#search-box{
-    width: 600px;
-    height: 24px;
-}
-#search-icon{
-    height: 24px;
+    margin-bottom: 10px;
 }
 .nav-element{
     display: inline;
     vertical-align: middle;
     margin-right: 30px;
 }
+#search{
+    margin-right: 0;
+}
+#search-box{
+    width: 600px;
+    height: 24px;
+    margin-right: 0;
+}
+#search-icon{
+    height: 24px;
+}
+
 #signin-button{
     background-color: #167AC6;
     color: white;
-    height: 24px;
-    border-radius: 10px;
+    width: 70px;
+    height: 34px;
+    border-radius: 5px;
+    border: 0px;
 }
 
 .cusor {
     cursor:pointer;
+}
+.video-player{
+    background-color:white;
+}
+#title-chose-lang{
+    background-color: #167AC6;
+ 
+}
+#title-chose-lang p{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+   
+}
+#title-chose-lang img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#x-icon{
+    position: absolute;
+    right: 10px;
+}
+#support-text{
+    background-color: white;
+    border: 2px #167AC6 solid;
+    margin-top: -18px;
+}
+#discription-chose-lang span{
+color:#167AC6 ;
+cursor:no-drop;
+}
+#learn-more{
+    position: absolute;
+    right: 10px;
+    cursor:default;
+}
+#learn-more a{
+    text-decoration: none;
 }
