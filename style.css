@@ -1,0 +1,25 @@
+
+#nav-bar{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+#search-box{
+    width: 600px;
+    height: 24px;
+}
+#search-icon{
+    height: 24px;
+}
+.nav-element{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+#signin-button{
+    background-color: #167AC6;
+    color: white;
+    height: 24px;
+    border-radius: 10px;
+}
