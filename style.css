@@ -23,3 +23,7 @@
     height: 24px;
     border-radius: 10px;
 }
+
+.cusor {
+    cursor:pointer;
+}
