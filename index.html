@@ -7,26 +7,33 @@
 <body>
 <nav id="nav-bar">
     <div class="nav-element" id="menu">
-        <img src="image/menu-icon.PNG" />
+        <button class="cusor"><img  src="image/menu-icon.PNG" /></button>
     </div>
     <div class="nav-element" id="youtube-icon">
-        <img src="image/youtube-icon.PNG"/>
+        <a href="https://www.youtube.com/"><img class="cusor" src="image/youtube-icon.PNG"/></a>
     </div>
     <div class="nav-element" id="search">
         <input id="search-box" placeholder="Search" />
     </div>
     <div class="nav-element">
-    <img id="search-icon" src="image/search-icon.PNG"/>
+        <button class="cusor"><img id="search-icon" src="image/search-icon.PNG"/></button>
 </div>
     <div class="nav-element" id="upload-icon">
-        <img src="image/upload-icon.PNG" />
+        <a href="https://studio.youtube.com/channel/UCphmteOV1A2kjArBlckJ6Ww/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><img class="cusor" src="image/upload-icon.PNG" /></a>
     </div>
-    <input class="nav-element" id="signin-button" type="button" value="Sign in">
+    <input class="nav-element cusor" id="signin-button"  type="button" value="Sign in">
 </nav>
         
-
-
-<iframe width="420" height="315"
+<div class="chose-lang">
+    <div id="title-chose-lang">
+       <p> <img src="image/support-icon.JPG">Choose your language.<img class="cusor" id="x-icon" src="image/x-icon.JPG"> </p>
+    </div>
+    <div id="support-text">
+        <p id="discription-chose-lang">You're viewing YouTube in English (US). You can<span> change this preference below.</span> <span id="learn-more"><a target="blank" href="https://support.google.com/youtube/answer/87604?hl=en&visit_id=637000072769461721-1280205538&rd=1&co=GENIE.Platform%3DDesktop&oco=1">learn more</a></span></p>
+    </div>
+</div>
+<div class="video-player">
+<iframe  width="640" height="360"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
     </iframe>
     <h2>Contributing to Open Source Part I: The Easy Way </h2>
@@ -47,6 +54,6 @@
     <button class="cusor"><img src="image/thumbs-down.JPG"/></button>
 
 </div>
-<div></div>
+<div></div></div>
 </body>
 </html>
