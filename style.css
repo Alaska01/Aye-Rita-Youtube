@@ -27,3 +27,30 @@
 .cusor {
     cursor:pointer;
 }
+
+.odin{
+    height: ;
+    padding-top: 2px;
+}
+
+.subscribe-channel-button{
+    float: left;
+
+}
+
+#subscribe{
+    height: 30px;
+    margin-top: -15px;
+    
+}
+
+#like{
+    position: absolute;
+    right: 10px;
+    display: inline;
+}
+
+#grouping{
+    width: 640px;
+    position: relative;
+}
