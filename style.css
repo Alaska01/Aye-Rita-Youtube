@@ -121,3 +121,9 @@ padding-bottom: 6px;
     margin-top: 5px;
     vertical-align: middle;
 }
+#views{
+    position: absolute;
+    right: 10px;
+    top: 440px;
+    font-size: 22px;
+}
